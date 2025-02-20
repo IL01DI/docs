@@ -80,5 +80,5 @@ plugins:
 
 nav:
   - Home: index.md
-  - propaedeutica: sapientia.md
+  - propaedeutica: sophia/propaedeutica/sapientia.md
   - metaphysica: f.md
