@@ -71,6 +71,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - git-committers
 
 nav:
   - Home: index.md
