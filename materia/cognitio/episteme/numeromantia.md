@@ -1,6 +1,0 @@
----
-alias:
-- numerology
-- numerología
-- numerologia
----
