@@ -71,7 +71,11 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-committers
+  - git-committers:
+      repository: IL01DI/docs
+      branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 nav:
   - Home: index.md
