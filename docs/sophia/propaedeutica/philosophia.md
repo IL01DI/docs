@@ -1,0 +1,1 @@
+¿Qué es filosofía? Filosofía es amor a la sabiduría y, por extensión, es la búsqueda y el estudio de los primeros principios y causas.

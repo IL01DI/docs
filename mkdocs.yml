@@ -80,5 +80,10 @@ plugins:
 
 nav:
   - Home: index.md
-  - propaedeutica: sophia/propaedeutica/sapientia.md
+  - propaedeutica:
+    - sophia/propaedeutica/sapientia.md
+    - sophia/propaedeutica/philosophia.md
+  - dialectica:
+    - sophia/dialectica/Plato.md
+    - sophia/dialectica/Aristoteles.md
   - metaphysica: f.md
