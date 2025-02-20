@@ -80,5 +80,5 @@ plugins:
 
 nav:
   - Home: index.md
-  - epistemologia: propaedeutica.md
+  - propaedeutica: de sapientia.md
   - metaphysica: f.md
