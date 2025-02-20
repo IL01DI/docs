@@ -80,8 +80,5 @@ plugins:
 
 nav:
   - Home: index.md
-  - sophia:
-    - propaedeutica.md
-    - epistemologia: d.md
-    - metaphysica: f.md
-  - scientia: s.md
+  - epistemologia: propaedeutica.md
+  - metaphysica: f.md
