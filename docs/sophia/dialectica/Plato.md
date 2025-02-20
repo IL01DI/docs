@@ -1,15 +1,15 @@
-# Euthyphro
+## Euthyphro
 
-# Trilogia
+## Trilogia
 
-## Apologia Socratis
+### Apologia Socratis
 
-## Crito
+### Crito
 
-## Phædo
+### Phædo
 
-# Hippias Major
+## Hippias Major
 
 
 
-# De Legibus
+## De Legibus
