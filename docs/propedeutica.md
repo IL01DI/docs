@@ -1,0 +1,1 @@
+Saber implica o saber o no saber. Si sabe, sabe que o bien sabe o bien no sabe. Si no sabe, no sabe que o bien sabe o bien no sabe.

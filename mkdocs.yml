@@ -1,7 +1,7 @@
 site_name: L01D's MkDocs
 
-repo_url: https://github.com/IL01DI/dg
-repo_name: IL01DI/dg
+repo_url: https://github.com/IL01DI/docs
+repo_name: IL01DI/docs
 edit_uri: edit/main/docs
 
 theme:
@@ -71,9 +71,15 @@ markdown_extensions:
 
 plugins:
   - git-committers:
-      repository: IL01DI/dg
+      repository: IL01DI/docs
       branch: main
   - git-revision-date-localized:
       enable_creation_date: true
   - search
   - callouts
+
+nav:
+  - Home: index.md
+  - sophia:
+    - epistemologia: propedeutica.md
+    - 
