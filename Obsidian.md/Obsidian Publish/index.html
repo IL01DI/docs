@@ -519,15 +519,13 @@
 </tbody>
 </table>
 <h1 id="obsidian-digital-garden">Obsidian Digital Garden<a class="headerlink" href="#obsidian-digital-garden" title="Permanent link">&para;</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">Requirements</p>
-<p>Assuming you already have:</p>
-<ul>
-<li>Installed <a href="obsidian://show-plugin?id=digitalgarden">Digital Garden Plugin</a> in Obsidian.</li>
-<li>A <a href="https://github.com/signup">GitHub</a> account.</li>
-<li>A <a href="https://vercel.com/signup">Vercel</a> or <a href="https://app.netlify.com/signup">Netlify</a> account.</li>
-</ul>
-</div>
+<blockquote>
+<p>[!warning] Requirements<br />
+Assuming you already have:<br />
+- Installed <a href="obsidian://show-plugin?id=digitalgarden">Digital Garden Plugin</a> in Obsidian.<br />
+- A <a href="https://github.com/signup">GitHub</a> account.<br />
+- A <a href="https://vercel.com/signup">Vercel</a> or <a href="https://app.netlify.com/signup">Netlify</a> account.</p>
+</blockquote>
 <p>The initial setup takes a couple of minutes, but when you're done you'll have a digital garden in which you are in control of every part of it, and can customize it as you see fit. Which is what makes digital gardens so delightful.</p>
 <h2 id="1-hosting-platform">1. Hosting Platform<a class="headerlink" href="#1-hosting-platform" title="Permanent link">&para;</a></h2>
 <h3 id="11-vercel">1.1. Vercel<a class="headerlink" href="#11-vercel" title="Permanent link">&para;</a></h3>
@@ -545,10 +543,10 @@
 <li>Follow the steps in Netlify to publish your site to the internet.</li>
 </ol>
 <h2 id="2-github-token-generation">2. GitHub Token Generation<a class="headerlink" href="#2-github-token-generation" title="Permanent link">&para;</a></h2>
-<div class="admonition tip">
-<p class="admonition-title">A more secure option</p>
-<p>GitHub has launched a new feature called “Fined-Grained Access Token”, where you can target what repositories the token has access to. This is currently the most secure way to use the plugin.</p>
-</div>
+<blockquote>
+<p>[!tip] A more secure option<br />
+GitHub has launched a new feature called “Fined-Grained Access Token”, where you can target what repositories the token has access to. This is currently the most secure way to use the plugin.</p>
+</blockquote>
 <h3 id="21-pat">2.1. PAT<a class="headerlink" href="#21-pat" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Next you need to <a href="https://github.com/settings/tokens/new?scopes=repo">create a PAT</a> to your GitHub Account.</li>
@@ -593,15 +591,13 @@ It should look something like this:<br />
 <p>Remember to also publish the notes you are linking to as this will not happen automatically. This is by design. You are always in control of what notes you actually want to publish. If you did not publish a linked note, the link will simply lead to a site telling the user that this note does not exist.</p>
 <p>If you want to unpublish a note, without deleting the note from your vault, simply uncheck or remove the <code>dg-publish</code> property in the note, open the <a href="https://dg-docs.ole.dev/getting-started/02-commands/#open-publication-center">publication centre</a> and click the “Delete notes from garden” button.</p>
 <h1 id="quartz">Quartz<a class="headerlink" href="#quartz" title="Permanent link">&para;</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">Requirements</p>
-<p>Assuming you already have:</p>
-<ul>
-<li>Installed <a href="obsidian://show-plugin?id=obsidian-mkdocs-publisher">Enveloppe</a> in Obsidian.</li>
-<li>A Git Account, preferred choice as <a href="https://github.com/signup">GitHub</a>.</li>
-<li>A <a href="https://dash.cloudflare.com/sign-up/workers-and-pages">Cloudflare</a>, <a href="https://vercel.com/signup">Vercel</a> or <a href="https://app.netlify.com/signup">Netlify</a> account (Optional).</li>
-</ul>
-</div>
+<blockquote>
+<p>[!warning] Requirements<br />
+Assuming you already have:<br />
+- Installed <a href="obsidian://show-plugin?id=obsidian-mkdocs-publisher">Enveloppe</a> in Obsidian.<br />
+- A Git Account, preferred choice as <a href="https://github.com/signup">GitHub</a>.<br />
+- A <a href="https://dash.cloudflare.com/sign-up/workers-and-pages">Cloudflare</a>, <a href="https://vercel.com/signup">Vercel</a> or <a href="https://app.netlify.com/signup">Netlify</a> account (Optional).</p>
+</blockquote>
 <h2 id="1get-started">1.🪴Get Started<a class="headerlink" href="#1get-started" title="Permanent link">&para;</a></h2>
 <p>Quartz requires <strong>at least <a href="https://nodejs.org/">Node</a> v18.14</strong> and <code>npm</code> v9.3.1 to function correctly. Ensure you have this installed on your machine before continuing.</p>
 <p>Then, in your terminal of choice, enter the following commands line by line:<br />
@@ -610,17 +606,17 @@ cd quartz
 npm i
 npx quartz create
 </code></pre></div></p>
-<details class="tip">
-<summary>Tip</summary>
+<blockquote>
+<p>[!tip]-</p>
 <p>If you prefer not to install Node in your device, you can skip the steps above and fork it at GitHub. The fork version handles every update from the main directly.</p>
-</details>
+</blockquote>
 <p>This will guide you through initializing your Quartz with content.</p>
 <h2 id="2-writing-content">2. Writing content<a class="headerlink" href="#2-writing-content" title="Permanent link">&para;</a></h2>
 <p>All the content in your Quartz should go in the <code>/content</code> folder. The content for the home page of your Quartz lives in <code>content/index.md</code>. If you’ve setup Quartz already, this folder should already be initialized. Any Markdown in this folder will get processed by Quartz.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>It is highly recommended that you use <a href="https://obsidian.md/">Obsidian</a> as a way to edit and maintain your Quartz. It comes with a nice editor and graphical interface to preview, edit, and link your local files and attachments.</p>
-</div>
+<blockquote>
+<p>[!tip]<br />
+It is highly recommended that you use <a href="https://obsidian.md/">Obsidian</a> as a way to edit and maintain your Quartz. It comes with a nice editor and graphical interface to preview, edit, and link your local files and attachments.</p>
+</blockquote>
 <h2 id="3-setting-up-your-git-repository">3. Setting up your Git repository<a class="headerlink" href="#3-setting-up-your-git-repository" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Create a new repository on GitHub.com, if you haven't.</li>
@@ -647,13 +643,13 @@ git remote add upstream https://github.com/jackyzha0/quartz.git
 <p>Then, you can sync the content to upload it to your repository. This is a helper command that will do the initial push of your content to your repository.<br />
 <div class="highlight"><pre><span></span><code>npx quartz sync --no-pull
 </code></pre></div></p>
-<details class="warning">
-<summary><code>fatal: --[no-]autostash option is only valid with --rebase</code></summary>
-<p>You may have an outdated version of <code>git</code>. Updating <code>git</code> should fix this issue.</p>
-</details>
+<blockquote>
+<p>[!warning]- <code>fatal: --[no-]autostash option is only valid with --rebase</code><br />
+You may have an outdated version of <code>git</code>. Updating <code>git</code> should fix this issue.</p>
+</blockquote>
 <p>In future updates, you can simply run <code>npx quartz sync</code> every time you want to push updates to your repository.</p>
-<div class="admonition tip">
-<p class="admonition-title">Flags and options</p>
+<blockquote>
+<p>[!tip] Flags and options</p>
 <p>For full help options, you can run <code>npx quartz sync --help</code>.</p>
 <p>Most of these have sensible defaults, but you can override them if you have a custom setup:</p>
 <ul>
@@ -663,20 +659,18 @@ git remote add upstream https://github.com/jackyzha0/quartz.git
 <li><code>--push</code> or <code>--no-push</code>: whether to push updates to your GitHub fork of Quartz</li>
 <li><code>--pull</code> or <code>--no-pull</code>: whether to try to pull in any updates from your GitHub fork (i.e. from other devices) before pushing.</li>
 </ul>
-</div>
+</blockquote>
 <h2 id="4-enveloppe-settings">4. Enveloppe Settings<a class="headerlink" href="#4-enveloppe-settings" title="Permanent link">&para;</a></h2>
 <p>The root folder must be set as <code>content</code> in “File paths”.</p>
 <h2 id="5-hosting">5. Hosting<a class="headerlink" href="#5-hosting" title="Permanent link">&para;</a></h2>
 <p>Quartz effectively turns your Markdown files and other resources into a bundle of HTML, JS, and CSS files (a website!).</p>
 <p>However, if you’d like to publish your site to the world, you need a way to host it online. This guide will detail how to deploy with common hosting providers but any service that allows you to deploy static HTML should work as well.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<blockquote>
+<p>[!Warning]</p>
 <p>The rest of this guide assumes that you’ve already created your own GitHub repository for Quartz. If you haven’t already, <a href="https://quartz.jzhao.xyz/setting-up-your-GitHub-repository">make sure you do so.</a></p>
-</div>
-<div class="admonition tip">
-<p class="admonition-title">Hint</p>
+<p>[!Hint]</p>
 <p>Some Quartz features (like <a href="https://quartz.jzhao.xyz/features/RSS-Feed">RSS Feed</a> and sitemap generation) require <code>baseUrl</code> to be configured properly in your <a href="https://quartz.jzhao.xyz/configuration">configuration</a> to work properly. Make sure you set this before deploying!</p>
-</div>
+</blockquote>
 <h3 id="github-pages">GitHub Pages<a class="headerlink" href="#github-pages" title="Permanent link">&para;</a></h3>
 <p>In your local Quartz, create a new file <code>quartz/.github/workflows/deploy.yml</code>.</p>
 <div class="highlight"><pre><span></span><code># quartz/.github/workflows/deploy.yml
@@ -730,15 +724,13 @@ jobs:
 <li>Head to “Settings” tab of your forked repository and in the sidebar, click “Pages”. Under “Source”, select “GitHub Actions”.</li>
 <li>Commit these changes by doing <code>npx quartz sync</code>. This should deploy your site to <code>&lt;github-username&gt;.github.io/&lt;repository-name&gt;</code>.</li>
 </ol>
-<div class="admonition tip">
-<p class="admonition-title">Hint</p>
+<blockquote>
+<p>[!Hint]</p>
 <p>If you get an error about not being allowed to deploy to <code>github-pages</code> due to environment protection rules, make sure you remove any existing GitHub pages environments.</p>
 <p>You can do this by going to your Settings page on your GitHub fork and going to the Environments tab and pressing the rubbish icon. The GitHub action will recreate the environment for you correctly the next time you sync your Quartz.</p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Quartz generates files in the format of <code>file.html</code> instead of <code>file/index.html</code> which means the trailing slashes for <em>non-folder paths</em> are dropped. As GitHub pages don't do this redirect, this may cause existing links to your site that use trailing slashes to break. If not breaking existing links is important to you (e.g. you are migrating from Quartz 3), consider using Cloudflare Pages.</p>
-</div>
+<p>[!Info]<br />
+Quartz generates files in the format of <code>file.html</code> instead of <code>file/index.html</code> which means the trailing slashes for <em>non-folder paths</em> are dropped. As GitHub pages don't do this redirect, this may cause existing links to your site that use trailing slashes to break. If not breaking existing links is important to you (e.g. you are migrating from Quartz 3), consider using Cloudflare Pages.</p>
+</blockquote>
 <h4 id="custom-domain">Custom Domain<a href="https://quartz.jzhao.xyz/hosting#custom-domain"></a><a class="headerlink" href="#custom-domain" title="Permanent link">&para;</a></h4>
 <p>Here’s how to add a custom domain to your GitHub pages deployment.</p>
 <ol>
@@ -759,11 +751,11 @@ jobs:
 </ol>
 <p>![[Pasted image 20240730103144.png|The above shows a screenshot of Google Domains configured for both <code>jzhao.xyz</code> (an apex domain) and <code>quartz.jzhao.xyz</code> (a subdomain).]]</p>
 <p>See the <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain">GitHub documentation</a> for more detail about how to set up your own custom domain with GitHub Pages.</p>
-<div class="admonition warning">
-<p class="admonition-title">Why aren't my changes showing up?</p>
+<blockquote>
+<p>[!warning] Why aren't my changes showing up?</p>
 <p>There could be many reasons why your changes aren’t showing up, but the most likely reason is that you forgot to push your changes to GitHub.</p>
 <p>Make sure you save your changes to Git and sync it to GitHub by doing <code>npx quartz sync</code>. This will also make sure to pull any updates you may have made from other devices so you have them locally.</p>
-</div>
+</blockquote>
 <ol>
 <li><a href="https://quartz.jzhao.xyz/authoring-content">Writing content</a> in Quartz</li>
 <li><a href="https://quartz.jzhao.xyz/configuration">Configure</a> Quartz’s behaviour</li>
@@ -848,10 +840,10 @@ pages:
 </table>
 <p>Press “Save and deploy” and Cloudflare should have a deployed version of your site in about a minute. Then, every time you sync your Quartz changes to GitHub, your site should be updated.</p>
 <p>To add a custom domain, check out <a href="https://developers.cloudflare.com/pages/platform/custom-domains/">Cloudflare’s documentation</a>.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<blockquote>
+<p>[!Warning]</p>
 <p>Cloudflare Pages performs a shallow clone by default, so if you rely on <code>git</code> for timestamps, it is recommended that you add <code>git fetch --unshallow &amp;&amp;</code> to the beginning of the build command (e.g., <code>git fetch --unshallow &amp;&amp; npx quartz build</code>).</p>
-</div>
+</blockquote>
 <h3 id="vercel">Vercel<a class="headerlink" href="#vercel" title="Permanent link">&para;</a></h3>
 <h4 id="fix-urls">Fix URLs<a class="headerlink" href="#fix-urls" title="Permanent link">&para;</a></h4>
 <p>Before deploying to Vercel, a <code>vercel.json</code> file is required at the root of the project directory. It needs to contain the following configuration so that URLs don’t require the <code>.html</code> extension:</p>
@@ -894,10 +886,10 @@ pages:
 <li>Press Deploy. Once it’s live, you’ll have 2 <code>*.vercel.app</code> URLs to view the page.</li>
 </ol>
 <h4 id="custom-domain_1">Custom Domain<a class="headerlink" href="#custom-domain_1" title="Permanent link">&para;</a></h4>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<blockquote>
+<p>[!Note]</p>
 <p>If there is something already hosted on the domain, these steps will not work without replacing the previous content. As a workaround, you could use Next.js rewrites or use the next section to create a subdomain.</p>
-</div>
+</blockquote>
 <ol>
 <li>Update the <code>baseUrl</code> in <code>quartz.config.js</code> if necessary.</li>
 <li>Go to the <a href="https://vercel.com/dashboard/domains">Domains  — Dashboard</a> page in Vercel.</li>
@@ -981,65 +973,8 @@ example.com {
 
 
   
-    
-  
-  
-    
   
 
-
-  <aside class="md-source-file">
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Last update">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 20, 2025</span>
-  </span>
-
-    
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Created">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 20, 2025</span>
-  </span>
-
-    
-    
-    
-      
-  <span class="md-source-file__fact">
-    
-      
-  <span class="md-icon" title="Contributors">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
-  </span>
-  <span>GitHub</span>
-
-    
-    <nav>
-      
-        <a href="https://github.com/IL01DI" class="md-author" title="@IL01DI">
-          
-          <img src="https://avatars.githubusercontent.com/u/45131480?v=4&size=72" alt="IL01DI">
-        </a>
-      
-        <a href="https://github.com/web-flow" class="md-author" title="@web-flow">
-          
-          <img src="https://avatars.githubusercontent.com/u/19864447?v=4&size=72" alt="web-flow">
-        </a>
-      
-      
-      
-    </nav>
-  </span>
-
-    
-  </aside>
 
 
 
