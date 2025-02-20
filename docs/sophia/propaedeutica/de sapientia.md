@@ -1,1 +1,3 @@
-Saber implica o saber o no saber. Si sabe, sabe que o bien sabe o bien no sabe. Si no sabe, no sabe que o bien sabe o bien no sabe.
+¿Qué es saber? Saber implica o saber o no saber. Entonces, si sabe, sabe que o bien sabe o bien no sabe; o si no sabe, no sabe que o bien sabe o bien no sabe. Por tanto, el que sabe, por un lado, sabe si sabe o no sabe; y el que no sabe, por otro lado, no sabe si sabe o no sabe. De acuerdo con esto, el que sabe, por un lado, sabe que sabe o sabe que no sabe; mientras que el que no sabe, por otro lado, no sabe que sabe o no sabe.
+
+Entonces, saber es saber que sabe y qué no sabe, mientras que no saber, al ser contrario, es no saber qué sabe y qué no sabe. Al primero, al que sabe que sabe, llamaremos sabios; al segundo, al que sabe que no sabe, filósofos; y al tercero, al que no sabe si sabe o no, ignorantes.
