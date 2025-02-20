@@ -1,0 +1,371 @@
+{
+  "main": {
+    "id": "bc7fca7d62cd0ce5",
+    "type": "split",
+    "children": [
+      {
+        "id": "39acc397a0e2fcd0",
+        "type": "tabs",
+        "dimension": 53.0139935414424,
+        "children": [
+          {
+            "id": "c019d14c54e53d33",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "materia/cognitio/episteme/Plato.canvas",
+                "viewState": {
+                  "x": 1917.814382960842,
+                  "y": -90.56863037745916,
+                  "zoom": -0.5555555216471356
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f33ccefa1a33252a",
+        "type": "tabs",
+        "dimension": 46.98600645855759,
+        "children": [
+          {
+            "id": "3178de3d865f5313",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.wikisofia.cat/w/index.php?search=Autor%3ALeibniz%2C+Gottfried+Wilhelm"
+              }
+            }
+          },
+          {
+            "id": "eacff0dc11c03edc",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Performing_arts"
+              }
+            }
+          },
+          {
+            "id": "aeabdb2c8f648e0a",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg"
+              }
+            }
+          },
+          {
+            "id": "35a161a8f64c2711",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.wikisofia.cat/wiki/Autor:Hume,_David"
+              }
+            }
+          },
+          {
+            "id": "2bb2c59a931202c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "materia/lingua/noun case.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ef3ec2d295d3a717",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://es.wikipedia.org/w/index.php?title=Special:Search&search=Sentido+com%C3%BAn&wprov=acrw1_0"
+              }
+            }
+          },
+          {
+            "id": "090bb59036d7da41",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://duckduckgo.com/?q=plato+mind+maps+site%3Areddit.com&ia=web"
+              }
+            }
+          },
+          {
+            "id": "f986a470125e6b29",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.mindmeister.com/app/map/2895824333?fullscreen=1&v=public"
+              }
+            }
+          },
+          {
+            "id": "b64a0906148f7638",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://es.wikipedia.org/wiki/Plat%C3%B3n#Estado_ideal"
+              }
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37724d1f08516ace",
+    "type": "split",
+    "children": [
+      {
+        "id": "ece00f856e04139a",
+        "type": "tabs",
+        "dimension": 60.238568588469185,
+        "children": [
+          {
+            "id": "9ccf6ecc4f765ace",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f085733c2f093b99",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "aristote",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c87cde6e0ad0f8dc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "a9be6de53d6bc38b",
+        "type": "tabs",
+        "dimension": 19.880715705765407,
+        "children": [
+          {
+            "id": "24bdef53fcbaac13",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "e33796f81b0ead63",
+        "type": "tabs",
+        "dimension": 19.880715705765407,
+        "children": [
+          {
+            "id": "dabbe6dc0b70414d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "bd075b5ed75b1aed",
+    "type": "split",
+    "children": [
+      {
+        "id": "49ab74cfce4d7b1f",
+        "type": "tabs",
+        "dimension": 17.66109785202864,
+        "children": [
+          {
+            "id": "97d9d5610aa7ee91",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "materia/cognitio/episteme/Plato.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0fc768bebf48f10b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "materia/cognitio/episteme/Plato.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "55e55a0bbb272228",
+        "type": "tabs",
+        "dimension": 22.275258552108195,
+        "children": [
+          {
+            "id": "7bf59a86c9914ee2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "materia/cognitio/episteme/Plato.canvas"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ded4413e5b7de14c",
+        "type": "tabs",
+        "dimension": 27.207637231503575,
+        "children": [
+          {
+            "id": "71a3862e76472e81",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "4dfc8137e1864154",
+        "type": "tabs",
+        "dimension": 32.85600636435959,
+        "children": [
+          {
+            "id": "2dd5e5e73b7baec9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 201.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "templates:Insert template": false,
+      "remotely-save:Remotely Save": false,
+      "hide-folders:Show hidden folders": false,
+      "fantasy-content-generator:Fantasy Generators": false,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "c019d14c54e53d33",
+  "lastOpenFiles": [
+    "materia/cognitio/episteme/justitia.md",
+    "materia/cognitio/episteme/Plato.canvas",
+    "materia/cognitio/episteme/concupiscentia.md",
+    "materia/cognitio/episteme/prudentia.md",
+    "materia/cognitio/episteme/audacia.md",
+    "materia/cognitio/episteme/temperantia.md",
+    "materia/cognitio/episteme/conservatio.md",
+    "materia/cognitio/episteme/pius mendacius.md",
+    "materia/cognitio/episteme/mendacius.md",
+    "materia/cognitio/episteme/aes.md",
+    "materia/lingua/noun case.md",
+    "materia/cognitio/episteme/argentus.md",
+    "materia/cognitio/episteme/aurus.md",
+    "materia/cognitio/episteme/vulgus.md",
+    "materia/cognitio/episteme/miles.md",
+    "materia/cognitio/episteme/philosopho.md",
+    "materia/cognitio/episteme/Untitled 4.md",
+    "materia/cognitio/episteme/familia.md",
+    "materia/cognitio/episteme/abolitio.md",
+    "materia/cognitio/episteme/oligarchia.md",
+    "materia/cognitio/episteme/timocratia.md",
+    "materia/cognitio/episteme/aristocratia.md",
+    "materia/cognitio/episteme/Aristoteles.md",
+    "materia/cognitio/episteme/Plato.md",
+    "materia/cognitio/episteme/classificatio epistemologico.canvas",
+    "materia/cognitio/episteme/astromantia.md",
+    "materia/cognitio/episteme/numeromantia.md",
+    "materia/cognitio/episteme/Untitled",
+    "materia/cognitio/episteme/historia.canvas",
+    "Untitled 1.canvas",
+    "materia/cognitio/episteme/Untitled.canvas",
+    "Untitled.canvas",
+    "content/lingua",
+    "content",
+    "forma",
+    "backup/2024-9-1-79487.zip",
+    "backup/2024-9-1-79484.zip",
+    "backup",
+    "materia/opus/Wip",
+    "materia/lingua",
+    "materia/opus",
+    "adjunctio/Pasted image 20240730103144.png",
+    "adjunctio/Pasted image 20240730100738.png",
+    "adjunctio/Pasted image 20240730100705.png",
+    "adjunctio/5CAROmZpll-700.webp",
+    "adjunctio/BfxGAQpDcz-700.webp"
+  ]
+}
