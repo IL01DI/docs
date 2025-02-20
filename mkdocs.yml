@@ -32,6 +32,7 @@ theme:
   features:
     - content.action.edit
     - content.action.view
+    - navigation.tabs
 
 markdown_extensions:
   - nl2br
